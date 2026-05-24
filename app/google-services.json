@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "309232082737",
+    "project_id": "shopapp-2e4a7",
+    "storage_bucket": "shopapp-2e4a7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:309232082737:android:81c75ec2e26ba106249a10",
+        "android_client_info": {
+          "package_name": "com.example.shopapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "309232082737-1fe3p1lmk45kbups7nupjhuar4eqqrkp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shopapp",
+            "certificate_hash": "93b967d069369f4abdd07c80c396d370459019d5"
+          }
+        },
+        {
+          "client_id": "309232082737-4h1516v1oneo7f52qvdvtrflhabgrd02.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSFLoUcAcprp6F8YwZH21Utz5e7kblrIg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "309232082737-4h1516v1oneo7f52qvdvtrflhabgrd02.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
