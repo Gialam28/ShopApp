@@ -13,17 +13,37 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ShopApp"
+        android:usesCleartextTraffic="true"
         tools:targetApi="31">
+
         <activity
-            android:name=".activities.LoginActivity"
+            android:name=".activities.SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activities.HomeActivity" />
-    </application>
 
+        <activity android:name=".activities.AccountSelectionActivity" android:exported="false" />
+
+        <activity android:name=".activities.OrderHistoryActivity" android:exported="false" />
+        <activity android:name=".activities.CartActivity" android:exported="false" />
+
+        <service
+            android:name=".activities.firebase.MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".activities.UpdateProductActivity" android:exported="false" />
+        <activity android:name=".activities.AddProductActivity" android:exported="false" />
+
+        <activity android:name=".activities.LoginActivity" android:exported="true" />
+
+        <activity android:name=".activities.HomeActivity" android:exported="false" />
+
+    </application>
 </manifest>

@@ -1,9 +1,24 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
+
     <style name="Base.Theme.ShopApp" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">#6200EE</item>
+        <item name="colorPrimaryDark">#3700B3</item>
+        <item name="colorSecondary">#03DAC6</item>
+
+        <item name="android:windowBackground">#F5F5F5</item>
+
+        <item name="colorSurface">@android:color/white</item>
+        <item name="colorOnSurface">#121212</item>
     </style>
 
     <style name="Theme.ShopApp" parent="Base.Theme.ShopApp" />
+
+    <style name="RoundedShapeImage">
+        <item name="cornerSize">12dp</item>
+    </style>
+    <style name="RoundedImageView" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">12dp</item>
+    </style>
+
 </resources>
